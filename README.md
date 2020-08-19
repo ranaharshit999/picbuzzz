@@ -4,7 +4,9 @@
 
 
 #Features 
-1)User authentication.
+
+1)User authentication.<--  
+
 2)Add a post.
 3)Delete a post.
 4)Link a post.
