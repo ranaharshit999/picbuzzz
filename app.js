@@ -9,7 +9,10 @@ const {MONGOURI}=require('./config/keys');
 
 
 
-mongoose.connect(MONGOURI,{ useUnifiedTopology: true , useNewUrlParser: true, useFindAndModify: false  });
+mongoose.connect(MONGOURI,
+    { useUnifiedTopology: true , 
+        useNewUrlParser: true, 
+        useFindAndModify: false  });
 
 mongoose.connection.on('connected',()=>{
     console.log('connected to mongoose');
